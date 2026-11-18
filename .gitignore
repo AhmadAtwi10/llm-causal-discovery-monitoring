@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+LLM_venv/
+
+# Secrets
+.env
+*.key
+API_key*.txt
+Api-key*.txt
+
+# Results and data
+logs/
+data/*.csv
+!data/cloud_edge_kwollect_*.csv
+
+# Editors / OS
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.DS_Store

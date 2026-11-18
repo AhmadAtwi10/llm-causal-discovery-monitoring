@@ -1,0 +1,28 @@
+# Tested with Python 3.10
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.11.4
+scikit-learn==1.6.1
+networkx==3.4.2
+igraph==0.11.8
+matplotlib==3.10.1
+seaborn==0.13.2
+tqdm==4.67.1
+requests==2.32.3
+
+# LLM backends
+ollama==0.4.7
+openai==1.93.3
+
+# Data-driven causal discovery baselines
+tigramite==5.2.7.0
+dcor==0.6
+lingam==1.9.1
+causal-learn==0.1.4.0
+dagma==1.1.1
+torch==2.6.0
+bnlearn==0.10.2
+pgmpy==1.0.0
+
+# Optional: SID metric on the bnlearn benchmarks (also needs R)
+# cdt==0.6.0
